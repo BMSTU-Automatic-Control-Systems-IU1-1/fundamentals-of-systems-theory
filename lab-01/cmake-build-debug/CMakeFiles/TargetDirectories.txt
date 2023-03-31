@@ -1,0 +1,3 @@
+/Users/aleksejshevcenko/Documents/BMSTU/Semester_4/fundamentall_of_teory_systems/fundamentals-of-systems-theory/lab-01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/aleksejshevcenko/Documents/BMSTU/Semester_4/fundamentall_of_teory_systems/fundamentals-of-systems-theory/lab-01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/aleksejshevcenko/Documents/BMSTU/Semester_4/fundamentall_of_teory_systems/fundamentals-of-systems-theory/lab-01/cmake-build-debug/CMakeFiles/lab_01.dir
