@@ -1,4 +1,4 @@
-#include "state.h"
+#include "stations.h"
 
 
 std::vector<int> routes(stations.size(), 1000);  // Массив кратчайших путей до каждой точки, изначально - 1000
@@ -46,7 +46,7 @@ int main() {
     setlocale(LC_ALL, "Russian");
 
     for (int i = 0; i < stations.size(); ++i) {  // Вывод станций с индексами
-        std::cout << stations[i] << '\t' << i << std::endl;
+        std::cout << i + 1 << ") " << stations[i] << '\t' << std::endl;
     }
 
     int from, to;   // Объявление переменных для индексов станции откуда едем и куда едем
@@ -59,6 +59,7 @@ int main() {
 
     // BFS
     {
+        --from; --to;
         OneKBFS(from, to);  // Запускаем поиск кратчайших путей
 
         // Выводим
